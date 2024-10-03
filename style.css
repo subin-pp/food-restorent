@@ -406,12 +406,13 @@ body {
 
 .about-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    width: 1120px; 
-    margin-left: 50px;
-    margin-bottom: 50px;
-  
-    
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; /* Take full width of the parent */
+    max-width: 1120px; /* Maximum width for large screens */
+    margin: 0 auto; /* Center the container */
+    gap: 20px; /* Space between grid items */
+    padding: 0 20px; /* Add horizontal padding for responsiveness */
+    margin-bottom: 40px;
 }
 
 .about-item {
@@ -519,6 +520,20 @@ button:hover {
 }
 
 /* footer */
+footer {
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Full width of the viewport */
+    padding: 40px 20px; /* Padding for spacing inside the footer */
+    color: white; /* Change text color for contrast, if needed */
+    text-align: center; /* Center align text inside the footer */
+}
+
+footer .footer-content {
+    max-width: 1120px; /* Limit the content width */
+    margin: 0 auto; /* Center the content */
+}
 
 .footer-parent {
     background-image: url('./images/footer2.jpg') !important;
