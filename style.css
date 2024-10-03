@@ -115,6 +115,35 @@ body {
     transform: scale(1.1);
 }
 
+#welcome {
+    font-size: 48px; /* Increased from 38px to 48px */
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: orange; /* Set text color */
+}
+
+#hungry {
+    font-size: 90px; /* Increased from 80px to 90px */
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+#discription {
+    font-size: 35px; /* Increased from 25px to 35px */
+    font-weight: 600;
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+#yumi, #hun {
+    color: orange; /* Color for Yumify and HUN */
+}
+
+#wl {
+    color: black; /* Color for "Welcome to" */
+}
+
 .home {
     display: grid; /* Use grid layout */
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -136,35 +165,6 @@ body {
     width: 450px; /* Set image width */
     margin: 0; /* Remove margin to center properly */
     margin-top: 50px; /* Maintain the top margin */
-}
-
-#welcome {
-    font-size: 38px;
-    font-family: "Lobster", sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    color: orange; /* Set text color */
-}
-
-#hungry {
-    font-size: 80px;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 20px; /* Bottom margin */
-}
-
-#discription {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 30px; /* Bottom margin */
-}
-
-#yumi, #hun {
-    color: orange; /* Color for Yumify and HUN */
-}
-
-#wl {
-    color: black; /* Color for "Welcome to" */
 }
 
 
