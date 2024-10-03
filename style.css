@@ -115,51 +115,50 @@ body {
     transform: scale(1.1);
 }
 
+.home {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    justify-items: center; /* Center items horizontally in each grid cell */
+    align-items: center; /* Center items vertically */
+    padding: 50px 10px; /* Padding around the grid */
+    text-align: center; /* Center the text */
+}
+
+.home-heading {
+    padding: 100px 50px; /* Adjust padding as needed */
+}
+
+.home-img {
+    width: auto; /* Adjust width as needed */
+}
+
+.images {
+    width: 450px; /* Set image width */
+    margin: 0; /* Remove margin to center properly */
+    margin-top: 50px; /* Maintain the top margin */
+}
+
 #welcome {
     font-size: 38px;
     font-family: "Lobster", sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    color: orange;
+    color: orange; /* Set text color */
 }
 
 #hungry {
     font-size: 80px;
     font-family: "Roboto", sans-serif;
- 
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Bottom margin */
 }
 
 #discription {
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* Bottom margin */
 }
 
-.home {
-    display: flex;
-    justify-content: center; /* Center the flex items */
-    align-items: center; /* Center vertically */
-    padding: 50px 10px;
-    text-align: center; /* Center the text */
-}
-
-.home-heading {
-    padding: 100px 50px; /* Adjust padding */
-    flex: 1; 
-}
-
-.home-img {
-    width: auto; /* Adjust the width as needed */
-  
-}
-
-.images {
-    width: 450px;
-    margin: 0 auto; /* Center the image */
-    margin-top: 50px; /* Maintain the top margin */
-}
 #yumi, #hun {
     color: orange; /* Color for Yumify and HUN */
 }
@@ -167,6 +166,7 @@ body {
 #wl {
     color: black; /* Color for "Welcome to" */
 }
+
 
 
 @media (max-width: 760px) {
