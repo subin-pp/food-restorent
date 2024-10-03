@@ -127,7 +127,7 @@ body {
 #hungry {
     font-size: 80px;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 10px;
+ 
     margin-bottom: 20px;
 }
 
@@ -139,35 +139,33 @@ body {
 
 .home {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center; /* Center the flex items */
+    align-items: center; /* Center vertically */
     padding: 50px 10px;
+    text-align: center; /* Center the text */
 }
 
 .home-heading {
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-top: 100px;
+    padding: 100px 50px; /* Adjust padding */
     flex: 1; 
 }
 
-#yumi, #hun {
-    color: orange;
-}
-
-#wl {
-    color: black;
-}
-
 .home-img {
-    width: 100%;
-    margin-left: 45px;
+    width: auto; /* Adjust the width as needed */
+    margin-left: 0; /* Remove margin */
 }
 
 .images {
     width: 450px;
-    margin-left: 180px;
-    margin-top: 50px;
+    margin: 0 auto; /* Center the image */
+    margin-top: 50px; /* Maintain the top margin */
+}
+#yumi, #hun {
+    color: orange; /* Color for Yumify and HUN */
+}
+
+#wl {
+    color: black; /* Color for "Welcome to" */
 }
 
 
@@ -536,7 +534,7 @@ footer .footer-content {
 }
 
 .footer-parent {
-    background-image: url('./images/footer2.jpg') !important;
+  background-color: #fedbb3;
   
 
     display: flex;
